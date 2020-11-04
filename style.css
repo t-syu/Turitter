@@ -1,0 +1,63 @@
+#post {
+	background: url(images/bg_main.png) top left repeat-y #eeeeee ;
+	background-size: 100%;
+	color: #333;
+}
+body {
+	background-color:#A1D7F7;
+	color: #333;
+}
+/* #list {
+	padding-left: 10px;
+	padding-right: 10px;
+} */
+dd {
+  padding-left: 0px;
+}
+.msg {
+	padding-left: 10px;
+	padding-right: 10px;
+	clear: both;
+	border-top: 1px solid #ccc;
+	background-color:#4D9FF3;
+}
+.msg img {
+	float: left;
+	margin-right: 5px;
+}
+.msg p {
+	margin: 0;
+}
+.msg .day,
+.msg .day a {
+	font-size: 80%;
+	color:black ;
+}
+.error {
+	color: red;
+}
+.block {
+	display: inline-block;
+}
+.paging {
+	margin-top: auto;
+	text-align: center;
+	padding-top: 60px;
+	display: flex;
+}
+.ajax-iine {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	block-size: 15%;
+}
+.aiin-css-tpl-sb-heart-l .aiin-vcnt {
+	font-size: 15px;
+}
+.aiin-css-tpl-sb-heart-l .aiin-icon, .aiin-css-tpl-sb-heart-l .aiin-icon-off, .aiin-css-tpl-sb-heart-l .aiin-icon-on {
+	width: 15px;
+	height: 15px;
+}
+/* .logout {
+
+} */
