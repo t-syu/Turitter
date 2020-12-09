@@ -155,7 +155,7 @@ if(isset($_REQUEST['res'])) { // 1.foreach $member_posts as $post の['id']と�
       <h6>Turitter.com</h6>
       <h1>釣りバカ日誌</h1>
     </div>
-      <div style="text-align: left"><a href="google_maps.html">Google maps で魚の釣り情報を見つける</a></div>
+      <div style="text-align: left"><a href="google_maps.php">Google maps で魚の釣り情報を見つける</a></div>
       <div style="text-align: left"><a href="logout.php">ログアウト</a></div>
       <br>
       <form action="" method="post">
@@ -201,7 +201,7 @@ if(isset($_REQUEST['res'])) { // 1.foreach $member_posts as $post の['id']と�
     <p>
       <?= htmlspecialchars($post['message'],ENT_QUOTES);?><span class="name">（<?= htmlspecialchars($post['name'],ENT_QUOTES);?>）</span>
       [<a href="index.php?res=<?= htmlspecialchars($post['id'],ENT_QUOTES); ?>">Re</a>]</p>
-      <p class="day"><a href="view.php?id=<?= htmlspecialchars($post['id'],ENT_QUOTES);?>"><?= htmlspecialchars($post['created'],ENT_QUOTES);?></a>
+      <p class="day"><a href="view.php?id=<?= htmlspecialchars($post['id'],ENT_QUOTES);?>"><?= htmlspecialchars($post['created'],ENT_QUOTES);?></a>[投稿日]
 <?php if($post['reply_message_id'] > 0): ?>
       <a href="view.php?id=<?= htmlspecialchars($post['reply_message_id'],ENT_QUOTES);?>">返信元のメッセージ</a>
 <?php endif; ?>

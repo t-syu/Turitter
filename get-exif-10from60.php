@@ -1,15 +1,4 @@
 <?php
-/********************************************************
-
-	Exifデータの位置情報を60進数から10進数に変換する関数
-		第1引数:進行方向(["GPSLatitudeRef"]、["GPSLongitudeRef"])
-		第2引数:60進数の配列(["GPSLatitude"]、["GPSLongitude"])
-		返り値:10進数に直したデータ
-
-	解説: https://syncer.jp/php-exif-read-data
-
-********************************************************/
-
 function get_10_from_60_exif( $ref , $gps )
 {
 	// 60進数から10進数に変換
@@ -25,3 +14,4 @@ function convert_float( $str )
 	$val = explode( '/' , $str ) ;
 	return ( isset($val[1]) ) ? $val[0] / $val[1] : $str ;
 }
+?>

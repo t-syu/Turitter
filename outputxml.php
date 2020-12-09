@@ -26,24 +26,21 @@ if (!$result) {
   die('Invalid query: ' . mysqli_connect_error());
 }
 header("Content-type: text/xml");
-// Start XML file, echo parent node
+// xmlファイルの作成スタート
 echo '<markers>';
-// Iterate through the rows, printing XML nodes for each
+// データベースの中身を最後まで繰り返す
 while ($row = @mysqli_fetch_assoc($result)){
-  // ADD TO XML DOCUMENT NODE
+  // データを一つずつノードとしてファイルに書き込み
   echo '<marker ';
   echo 'name="' . parseToXML($row['name']) . '" ';
   echo 'message="' . parseToXML($row['message']) . '" ';
-  // echo 'reply_message_id="' . $row['reply_message_id'] . '" ';
   echo 'post_picture="' . $row['post_picture'] . '" ';
   echo 'lat="' . $row['lat'] . '" ';
   echo 'lng="' . $row['lng'] . '" ';
   echo 'monthstamp="' . $row['monthstamp'] . '" ';
   echo 'datetime="' . $row['datetime'] . '" ';
   echo 'created="' . $row['created'] . '" ';
-  // echo 'modified="' . $row['modified'] . '" ';
   echo '/>';
 }
-// End XML file
 echo '</markers>';
 ?>
