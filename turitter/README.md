@@ -28,6 +28,7 @@ https://drive.google.com/file/d/1LaOJa7Hj21A76SpPdaa8K_aSBonLYV9J/view?usp=shari
 - サイト: https://tb-220337.tech-base.net/turitter/index.php
 - メールアドレス: guest1234@gmail.com
 - パスワード: pass
+- 現在APIを有効にはしていません。
 
 ## 注意点
 写真のGPSを用いてGoogle mapsで位置情報を共有するため、個人情報の取り扱いにはご注意ください。くれぐれも家で取った写真を送らないでください。削除すれば、写真ごと消すため間違って送ってしまったら、できるだけお早めにお消しください。
