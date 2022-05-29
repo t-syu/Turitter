@@ -22,7 +22,7 @@ HTMLとCSSとPHPとSQLとJavaScriptで構成されています。
 他にも、メッセージ内容にも基づいて、検索できるようにした検索機能も注力しました。
 
 ## デモ画面
-[https://drive.google.com/file/d/1LaOJa7Hj21A76SpPdaa8K_aSBonLYV9J/view?usp=sharing](https://drive.google.com/drive/my-drive)
+Uploading Turitter.mp4…
 
 ## テストアカウント
 - サイト: https://tb-220337.tech-base.net/turitter/index.php
