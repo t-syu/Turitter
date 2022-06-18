@@ -22,6 +22,9 @@ HTML/CSS/JavaScript/PHP/MySQLで構成されています。
 注力した機能は、やはり写真の位置情報と日時を取得して、Google maps に表すことのできる機能です。
 他にも、メッセージ内容にも基づいて、検索できるようにした検索機能も注力しました。
 
+## 注意
+拡張子がHEICの場合、うまくGoogle Mapsに反映されません。誠に申し訳ございません。
+
 ## デモ画面
 https://youtu.be/JJuf6-OlvKg
 
