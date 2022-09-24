@@ -46,3 +46,22 @@ First of all, this is a site to share the location information of the fish you c
 
 ## Languages used
 HTML/CSS/JavaScript/PHP/MySQL
+
+## Function list
+- Search function
+- Delete function
+- Edit function
+- Upload photo function
+- Ability to retrieve location and date/time information for photos
+- Automatic login function Automatic logout function
+- Ability to log out automatically
+- Ability to save user information
+
+## demonstration video
+https://youtu.be/JJuf6-OlvKg
+
+## A test account
+- Site: https://tb-220337.tech-base.net/turitter/index.php
+- E-mail address: guest1234@gmail.com
+- Password: pass
+- API is not currently enabled.
